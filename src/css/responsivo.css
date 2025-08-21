@@ -1,0 +1,42 @@
+@media (max-width: 725px) {
+  html {
+    background: url(../images/bg-mobile.svg) center center fixed no-repeat;
+    background-color: hsl(257, 40%, 49%);
+  }
+  .logo img{
+    max-width: 200px;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .banner img {
+    max-width: 350px;
+    height: auto;
+    padding: 1rem;
+    margin-top: -3rem;
+  }
+  .info h1{
+    margin-top: -4.5rem;
+  }
+  .info p{
+    margin-bottom: 1rem;
+  }
+button{
+   display: block;
+   margin: 20px auto;
+   margin-top: -1rem;
+  }
+  footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-top:  -2.5rem;
+    margin-right: 2rem;
+    
+}
+}
